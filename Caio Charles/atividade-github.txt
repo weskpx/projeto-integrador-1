@@ -1,0 +1,50 @@
+Configurando:
+git config: define o seu nome de usuário e endereço de e-mail.
+
+Exemplo:
+git config --global user.name "Nome"
+git config --global user.email "Email"
+
+git help: obter a ajuda para qualquer um dos comandos Git.
+
+Exemplo (3 formas):
+git help {comando}
+git {comando} --help
+man git- {comando}
+
+Criando o projeto
+
+Inicializando um Repositório em um Diretório Existente
+
+git init: Isso cria um novo subdiretório chamado .git que contem todos os arquivos necessários de seu repositório — um esqueleto de repositório Git. Neste ponto, nada em seu projeto é monitorado.
+
+Primeira versão: Caso você queira começar a controlar o versionamento dos arquivos existentes (diferente de um diretório vazio), você provavelmente deve começar a monitorar esses arquivos e fazer um commit inicial. Assim:
+
+touch .gitignore
+git add .gitignore.
+git commit -m "Versão inicial do projeto"
+
+git clone: serve para clonar um repositório do git hub.
+
+Exemplo: git clone git://github.com/schacon/grit.git
+
+Para salvar em um diretório com outro nome, especifique usando: 
+git clone git://github.com/schacon/grit.git mygrit
+
+git add: para passar a monitorar um novo arquivo, use o comando git add. 
+
+Exemplo: git add readme.txt
+
+git status: o comando lhe mostra em qual branch você se encontra. Caso você adicione um novo arquivo na sua pasta de projetos, ao dar o git status, ele pode mostrar que esse novo arquivo não sendo "monitorado".
+
+git diff: mostra mais abrangentemente as mudanças feitas nos arquivos.
+
+git commit -m:  armazena o conteúdo atual do índice em um novo commit, juntamente com uma mensagem de registro do usuário que descreve as mudanças.
+
+git fetch: esse comando vai até o projeto remoto e pega todos os dados que você ainda não tem.
+
+git pull: incorpora as alterações de um repositório remoto no branch atual.
+
+git push: o git push é o comando em que você transfere commits a partir do seu repositório local para um repositório remoto.
+
+Referência: https://comandosgit.github.io/
