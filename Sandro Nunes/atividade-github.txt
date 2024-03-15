@@ -1,0 +1,167 @@
+git init: Inicia um novo repositório Git.
+
+git clone: Clona um repositório existente.
+
+git add: Adiciona mudanças para serem commitadas Você pode adicionar arquivos individualmente usando git add nome_do_arquivo, ou adicionar todos os arquivos modificados usando git add .
+
+git commit: Salva mudanças no repositório.
+
+git push: Envia(empurra) mudanças locais para o repositório remoto.
+
+git pull: Obtém(puxa) mudanças do repositório remoto.
+
+git checkout: Altera branches ou restaura arquivos.
+
+git branch: Lista, cria ou deleta branches.
+
+git merge: Une branches.
+
+git status: Mostra o estado atual do repositório.
+
+git log: Mostra o histórico de commits.
+
+git reset: Desfaz mudanças específicas no repositório.
+
+git stash: Salva temporariamente mudanças não commitadas.
+
+git fetch: Obtém mudanças do repositório remoto sem mesclá-las.
+
+git remote: Gerencia repositórios remotos.
+
+git diff: Mostra as diferenças entre commits, arquivos ou branches.
+
+git tag: Gerencia tags para marcar pontos específicos na história.
+
+git revert --no-commit: Desfaz alterações de commits anteriores, mas não faz um novo commit automaticamente.
+
+git revert --abort: Cancela um processo de revert que está em andamento.
+
+git reflog expire: Limpa entradas antigas no reflog para otimizar o uso de memória.
+
+git show-ref: Mostra referências (como branches e tags) junto com seus hashes de commit.
+
+git update-ref: Modifica referências diretamente no repositório.
+
+git cat-file: Fornece informações sobre objetos Git.
+
+git commit --amend: Modifica o commit mais recente incorporando mudanças adicionais.
+
+git commit --fixup: Cria um commit fixup que será combinado com um commit específico durante um rebase interativo.
+
+git commit --squash: Combina mudanças em um único commit durante um rebase interativo.
+
+git merge --squash: Combina mudanças de uma branch em outra, mas não faz um commit de merge automático.
+
+git rm: Remove arquivos do controle de versão.
+
+git mv: Move ou renomeia arquivos.
+
+git rebase: Reorganiza a história do commit.
+
+git cherry-pick: Aplica um commit específico de uma branch para outra.
+git bisect: Ajuda a encontrar um commit específico que introduziu um bug.
+
+git blame: Mostra quem modificou cada linha de um arquivo e em que commit.
+
+git clean: Remove arquivos não rastreados do diretório de trabalho.
+
+git grep: Procura por padrões em arquivos rastreados.
+
+git submodule: Gerencia submódulos dentro do repositório.
+
+git config: Configura opções do Git, como nome de usuário e email.
+
+git remote: Gerencia repositórios remotos.
+
+git revert: Desfaz um commit específico, criando um novo commit que reverte as mudanças.
+
+git archive: Cria um arquivo ZIP ou TAR de um branch ou commit específico.
+
+git reflog: Mostra o registro de referências, incluindo as alterações de HEAD.
+
+git bisect: Ajuda a encontrar um commit específico usando uma busca binária.
+
+git blame: Mostra quem modificou cada linha de um arquivo e em que commit.
+
+git submodule: Gerencia repositórios dentro de repositórios (submódulos).
+
+git cherry: Lista commits não mesclados.
+
+git bisect start: Inicia uma sessão de busca binária para encontrar o commit que introduziu um bug.
+
+git bisect bad: Marca o commit atual como "ruim" (contém o bug).
+
+git bisect good: Marca o commit atual como "bom" (não contém o bug).
+
+git bisect reset: Termina a sessão de busca binária e retorna para o estado original do repositório.
+
+git reflog: Exibe o histórico de referências do Git, incluindo movimentos de HEAD e resets.
+
+git tag -a: Cria uma tag anotada em um commit específico.
+
+git tag -d: Deleta uma tag existente.
+
+git describe: Fornece uma descrição amigável do commit mais recente alcançável a partir de uma determinada referência.
+
+git clean -n: Mostra quais arquivos seriam removidos pelo comando git clean, sem realmente executá-lo.
+
+git clean -f: Remove os arquivos não rastreados do diretório de trabalho.
+
+git archive: Cria um arquivo com um snapshot específico do repositório.
+
+git revert: Desfaz um ou mais commits, revertendo as mudanças.
+
+git fsck: Verifica a integridade do banco de dados do Git.
+
+git instaweb: Inicia um servidor web para exibir o repositório em um navegador.
+
+git fsck: Verifica a integridade do banco de dados do Git.
+
+git bisect: Ajuda a encontrar um commit específico usando busca binária.
+
+git reflog: Registra referências HEAD anteriores, útil para recuperar histórico perdido.
+
+git gc: Realiza a coleta de lixo, otimizando o banco de dados do Git.
+
+git grep: Procura por padrões em arquivos rastreados.
+
+git shortlog: Resumo de logs de commit, agrupados por autor.
+
+git show: Exibe informações sobre um commit específico.
+
+git mergetool: Inicia uma ferramenta de merge para resolver conflitos de forma visual.
+
+git stash: Salva temporariamente mudanças não commitadas para aplicá-las mais tarde.
+
+git rebase -i: Reescreve o histórico de commits de forma interativa.
+
+git push --force: Força a atualização do repositório remoto com commits alterados localmente.
+
+git show-branch: Mostra as branches e seus commits.
+
+git svn: Fornece integração entre repositórios Git e Subversion (SVN).
+
+git svn clone: Clona um repositório SVN localmente como um repositório Git.
+
+git svn rebase: Atualiza um repositório Git baseado em SVN com as mudanças mais recentes do SVN.
+
+git svn dcommit: Envia commits locais de volta para o repositório SVN.
+
+git filter-branch: Filtra o histórico do repositório para reescrever commits.
+
+git rev-parse: Converte referências em hashes de commit e vice-versa.
+
+git ls-files: Lista arquivos rastreados no repositório.
+
+git submodule update: Atualiza submódulos para corresponder ao commit referenciado no repositório principal.
+
+git update-index: Modifica a entrada de um arquivo no índice ou adiciona novos arquivos ao índice.
+
+
+
+
+
+
+
+
+
