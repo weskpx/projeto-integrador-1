@@ -1,0 +1,7 @@
+git commit (comitar arquivo/diretório)
+git diff (verificar mudanças)
+git status (verificar o status)
+git add (monitora novos arquivos)
+git reset (Desfaz ações)
+git rm (remove arquivos)
+git mv (move arquivos)
