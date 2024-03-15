@@ -1,0 +1,27 @@
+git help - exibe informações de ajuda sobre git.
+
+git config - permite ver e atribuir variáveis de configuração do git.
+
+git init - cria um novo repositório do git e permite transformar um diretório em um repositório do git.
+
+git clone - clona um repositório existente.
+
+git add - adiciona algo que foi modificado ou criado.
+
+git rm - remove arquivos ou diretórios de um repositório.
+
+git commit - grava as alterações do que foi modificado, adicionado ou removido.
+
+git status - exibe uma lista dos arquivos e diretórios que foram modificados e adicionados no repositório.
+
+git diff - permite visualizar as alterações feitas em cada um dos arquivos modificados.
+
+git checkout - permite alternar entre os branchs ja existentes, também reseta arquivos que foram modificados.
+
+git branch - permite criar novos branchs, listar todos existentes e removê-los.
+
+git pull - mescla as alterações do repositório remoto para o seu repositório local.
+
+git push - envia as alterações do seu repositório local para o remoto, conforme a branch que está sendo utilizada.
+
+git log - exibe os logs dos commits efetuados.
