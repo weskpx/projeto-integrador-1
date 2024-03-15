@@ -1,0 +1,69 @@
+Aluna: Sabrina de Oliveira Souza
+Curso: Sistemas para Internet - 1º Semestre
+
+ATIVIDADE DE PI
+Pesquise os principais comandos utilizados no git e escreva sua respectiva função.
+
+REPOSITÓRIO LOCAL
+git init: Cria um novo repositório
+git status: Verifica o estado dos arquivos/diretórios
+git diff: Mostra as linhas exatas que foram adicionadas e removidas (é mais específico que o 'git status')
+git add meu_arquivo.txt: Adiciona um arquivo específico
+git add meu_diretorio: Adiciona um diretório específico
+git add .: Adiciona todos os arquivos/diretórios
+
+COMITAR ARQUIVO/DIRETÓRIO
+git commit -m "Mensagem": Armazena o conteúdo atual do índice em um novo commit, juntamente com uma mensagem de registro do usuário que descreve as mudanças. Se usa o commit depois de já ter feito o git add, para fazer o commit:
+git commit -a -m "Mensagem": Para commitar também os arquivos versionados mesmo não estando no Stage basta adicionar o parâmetro -a
+git commit meu_arquivo.txt: Comita um arquivo
+git commit meu_arquivo.txt meu_outro_arquivo.txt: Comita vários arquivos
+
+REMOVER ARQUIVO/DIRETÓRIO
+git rm -f meu_arquivo.txt: Remove arquivo
+git rm -r diretorio: Remove diretório
+
+MOVENDO ARQUIVOS
+git mv arquivo_origem arquivo_destino: Renomeia o arquivo para o novo local
+
+DESFAZENDO OPERAÇÕES
+git checkout -- meu_arquivo.txt: É usado enquanto o arquivo não foi adicionado na staged area 
+
+REOSITÓRIO REMOTO
+git remote [ou] git remote -v: Mostra os repositórios remotos
+git remote show origin: Mostra informações dos repositórios remotos
+git remote rename origin curso-git: Renomeia um repositório remoto
+git remote rm curso-git: Desvincula um repositório remoto
+
+> Enviar arquivos/diretórios para o repositório remoto
+git push -u origin master: O primeiro push de um repositório deve ter o nome do repositório remoto e o branch.
+git push: Os outros empurram não precisam dessa informação
+
+> Atualizar repositório local de acordo com o repositório remoto
+git pull: Atualiza os arquivos no branch atual
+git fetch: Busca as alterações, mas não se aplica às filiais atuais
+git clone git@github.com:leocomelli/curso-git.git: Clona um repositório remoto já existente
+
+GALHOS
+git branch bug-123: Cria uma nova filial
+git checkout bug-123: Troca para uma filial existente
+git checkout master: Volta para o diretor da filial (mestre)
+git merge bug-123: Resolve mesclagem entre os ramos
+git branch -d bug-123: Apaga um ramo
+git push origin:bug-123: Apaga filial remota
+
+REBAEANDO
+git checkout experiment [ou] git rebase master: Faz o rebase entre um branch bug-123 e o master
+git stash: Cria um esconderijo
+git commit --amend -m "Minha nova mensagem": Alterna mensagens de commit
+
+
+BRANCH E MERGE
+git branch: cria um novo branch (ponteiro) para o mesmo commit em que estou
+git checkout testing: Muda a branch
+git checkout -b {nome_da_branch}: Muda de branch. Se a branch ainda não exista é possível passar o parâmetro -b para criar
+
+GIT FETCH
+git fetch origin: Pega dados dos projetos remotos
+git pull origin: Incorpora as alterações de um repositório remoto no branch atual
+	#git pull é uma abreviação para git fetch
+git push origin: Transfere commits a partir do seu repositório local para um repositório remoto
