@@ -1,0 +1,9 @@
+git init:inicializa repositorio local git.
+git status:verifica o estado dos seus arquivos.
+git add:envia seu arquivo especifico para o stage.
+git commit:envia arquivo que está no stage para HEAD.
+git push:para fazer push de commits de seu branch local para um repositório remoto.
+git clone:clona um repositório com clone remote <url>.
+git log: ver o histórico de commits.
+git pull:usado para buscar e baixar conteúdos de repositórios remotos e repositório local para que os conteúdosm sejam iguais.
+git tag:usado para capturar um ponto no histórico que é usado para uma versão marcada.
