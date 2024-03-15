@@ -1,0 +1,36 @@
+﻿1. git init: Começar a usar o Git em uma pasta.
+   
+   
+2. git clone [url]: Copiar um projeto Git de um lugar para outro.
+   
+   
+3. Git add [arquivo(s)]: Preparar arquivos para serem salvos no histórico.
+   
+   
+4. git commit -m "[mensagem]": Salvar mudanças no histórico.
+   
+  
+5. git status: Verificar o estado dos arquivos.
+   
+ 
+6. git pull: Pegar as mudanças de um lugar e trazê-las para o seu computador.
+   
+  
+7. git push: Enviar suas mudanças para um lugar central.
+   
+   
+8. git branch: Criar uma nova linha de desenvolvimento separada da principal.
+   
+  
+9. git checkout [nome da branch]: Mudar para uma linha de desenvolvimento diferente.
+   
+  
+10. git merge [nome da branch]: Combinar o trabalho de duas linhas de desenvolvimento.
+    
+   
+11. git log: Ver o histórico de mudanças no projeto.
+    
+    
+12. git remote -v: Ver onde o projeto está armazenado online.
+    
+    
