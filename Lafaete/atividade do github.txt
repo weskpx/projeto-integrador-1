@@ -1,0 +1,16 @@
+git config: Utilizado para configurar sua identidade de usuário, inserindo informações como nome e email que serão empregadas em cada commit.
+git init: Inicializa um repositório Git em um diretório local.
+git clone [url]: Clona um repositório Git existente para o seu diretório local.
+git add [arquivo]: Adiciona um arquivo específico ou todos os arquivos alterados ao próximo commit.
+git commit -m "[mensagem]": Cria um commit com as alterações preparadas, junto com uma mensagem descritiva.
+git push: Envia commits locais para um repositório remoto.
+git pull: Puxa as alterações do repositório remoto para o repositório local.
+git status: Exibe o estado atual do repositório.
+git branch: Lista todas as branches locais.
+git checkout [branch]: Muda para uma branch específica.
+git merge [branch]: Mescla uma branch específica na branch atual.
+git log: Mostra o histórico de commits.
+git remote -v: Lista os repositórios remotos configurados.
+git fetch: Busca todos os objetos de um repositório remoto que ainda não estão no repositório local.
+git reset [opções] [commit]: Volta para um commit específico, opcionalmente removendo todas as alterações posteriores.
+git rebase [branch]: Reorganiza o histórico de commits de uma branch, reaplicando cada commit em cima do último commit da branch especificada.
