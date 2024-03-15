@@ -1,0 +1,17 @@
+1 - git init: Inicializa um repositório Git em um diretório local.
+2 - git clone: Clona um repositório Git existente para o seu ambiente local.
+3 - git add: Adiciona alterações ao índice para serem incluídas no próximo commit.
+4 - git commit: Registra as alterações no repositório, criando um novo commit.
+5 - git status: Exibe o estado do diretório de trabalho e do índice.
+6 - git push: Envia os commits locais para um repositório remoto.
+7 - git pull: Recupera as alterações do repositório remoto e mescla com o branch local.
+8 - git fetch: Recupera os commits do repositório remoto, mas não mescla com o branch local.
+9 - git branch: Lista, cria ou exclui branches.
+10 - git checkout: Muda para um branch específico ou restaura arquivos do diretório de trabalho.
+11 - git merge: Mescla os commits de um branch em outro.
+12 - git rebase: Reorganiza os commits de um branch para que se baseiem em um commit diferente.
+13 - git log: Exibe o histórico de commits.
+14 - git diff: Mostra as diferenças entre commits, o índice e o diretório de trabalho.
+15 - git reset: Redefine o estado do índice ou do diretório de trabalho para um commit específico.
+16 - git revert: Desfaz um commit específico, criando um novo commit que desfaz as alterações introduzidas pelo commit original.
+17 - git stash: Armazena as mudanças temporariamente para que você possa alternar para outro branch ou ramo sem precisar fazer commit das alterações.
