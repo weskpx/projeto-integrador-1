@@ -1,0 +1,26 @@
+PI1
+
+Atividade 15/03/2024 - Principais comandos git
+
+• git config - configura usuário e e-mail no git
+• git help - obtém ajuda para utilizar algum comando
+• git init - inicia um repositório de um projeto/pasta 
+• git clone [url] - clona o repositório (remoto) contido no link
+• git add FILE - adiciona o arquivo apontado do diretório de trabalho para a fase de stage, para depois serem commitados. "monitora o arquivo"
+• git add . - adiciona todos os arquivos daquele diretório/pasta na fase de stage
+• git status - mostra qual o status dos arquivos daquele diretório (se está commitado, se tem algo alterado para ser commitado, se está dentro ou fora da fase de stage)
+• dit diff --cached - mostra o que foi selecionado para a stage
+• git commit -m "Mensagem" - faz um commit dos arquivos adicionados em stage na árvore de versionamento (na máquina)
+• git commit -a -m "Mensagem" - faz o commit também dos arquivos que não estão no Stage
+• git push - "empurra" os arquivos commitados do epositório local para o repositório remoto
+• git reset --hard HEAD~1 - reseta; desfaz um commit, voltando ao último commit feito
+• git rm - remove um arquivo do diretório
+• git branch - cria novas branchs
+• git checkout [nome da branch] - muda para a branch apontada
+• git merge - faz o merge ("fundir") 
+• git log - mostra o registro do que foi commitado e empurrado 
+• git fetch - "pega" dados do repositório remoto (só depois que você opera o merge disso pra máquina, ou inspeciona)
+• git pull - incorpora as alterações de um repositório remoto no branch atual na máquina
+• git revert - desfaz um commit
+
+Fonte: https://comandosgit.github.io/ 
