@@ -1,0 +1,11 @@
+Principais comandos git:
+
+git init: inicializa um repositório local git.
+git status: verifica o estado dos seus arquivos.
+git add: envia seu arquivo especificado para o Stage.
+git commit: envia o arquivo que está no Stage para o HEAD.
+git push: para fazer push de commits de seu branch local para um repositório remoto.
+git clone: clona um repositório com clone remoto <url>.
+git log: ver o histórico de commits.
+git pull: usado para buscar e baixar conteúdo de repositórios remotos e fazer a atualização imediata ao repositório local para que os conteúdos sejam iguais.
+git tag: usado para capturar um ponto no histórico que é usado para uma versão marcada.
