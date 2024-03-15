@@ -1,0 +1,17 @@
+git push: Empurra para o repositório os commits.
+
+git config --global user.name "User Name": Setar usuário
+
+git config --global user.email user@gmail.com.br: Setar email
+
+git config --global core.editor vim: Setar editor
+
+
+git init: criar novo repositório
+
+git status: verificar status dos aquivos/repositorios
+
+git add meu_arquivo.txt: adicionar arquivo específico 
+
+
+
