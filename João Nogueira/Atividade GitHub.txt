@@ -1,0 +1,24 @@
+Aluno: João Victor P. Nogueira 
+Curso: Sistemas para Internet - 1º Semestre
+
+
+
+Git é uma ferramenta de versionamento de código. No GitHub você deposita seus repositórios. Para utilizar o Git é necessário conhecer os comandos principais listados abaixo:
+
+a)git init: inicializa um repositório Git em um diretório local;
+b)git clone: clona um repositório Git existente para o seu computador;
+c)git add: adiciona arquivos ao índice (staging area) para prepará-los para o commit;
+d)git commit: grava as mudanças feitas nos arquivos no repositório;
+e)git push: envia os commits locais para um repositório remoto;
+f)git pull: obtém as mudanças de um repositório remoto e as mescla com o repositório local;
+g)git status: mostra o estado atual do repositório, incluindo arquivos modificados, adicionados ou removidos;
+h)git log: mostra o histórico de commits;
+i)git branch: lista, cria ou exclui branches (ramos);
+j)git checkout: altera o branch atual ou restaura arquivos;
+k)git merge: mescla branches diferentes;
+l)git rebase: aplica os commits de um branch sobre outro;
+m)git stash: salva temporariamente mudanças que ainda não estão prontas para serem commitadas;
+n)git remote: gerencia repositórios remotos;
+o)git fetch: obtém as últimas alterações dos repositórios remotos sem mesclá-las com seu branch local;
+p)git reset: volta para um estado de commit anterior;
+q)git revert: desfaz um commit específico, criando um novo commit com as mudanças revertidas.
