@@ -1,0 +1,35 @@
+PESQUISA: OS PRINCIPAIS COMANDOS DO GITs
+
+Git init: Inicializa um repositório Git em um diretório local.
+
+Git clone: Clona um repositório Git existente para o seu computador.
+
+Git add: Adiciona arquivos ao índice (staging area) para prepará-los para o commit.
+
+Git commit: Grava as mudanças feitas nos arquivos no repositório.
+
+Git push: Envia os commits locais para um repositório remoto.
+
+Git pull: Obtém as mudanças de um repositório remoto e as mescla com o repositório local.
+
+Git status: Mostra o estado atual do repositório, incluindo arquivos modificados, adicionados ou removidos.
+
+Git log: Mostra o histórico de commits.
+
+Git branch: Lista, cria ou exclui branches (ramos).
+
+Git checkout: Altera o branch atual ou restaura arquivos.
+
+Git merge: Mescla branches diferentes.
+
+Git rebase: Aplica os commits de um branch sobre outro.
+
+Git stash: Salva temporariamente mudanças que ainda não estão prontas para serem commitadas.
+
+Git remote: Gerencia repositórios remotos.
+
+Git fetch: Obtém as últimas alterações dos repositórios remotos sem mesclá-las com seu branch local.
+
+Git reset: Volta para um estado de commit anterior.
+
+Git revert: Desfaz um commit específico, criando um novo commit com as mudanças revertidas.
