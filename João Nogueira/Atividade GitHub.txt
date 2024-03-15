@@ -1,3 +1,8 @@
+Aluno: João Victor P. Nogueira 
+Curso: Sistemas para Internet - 1º Semestre
+
+
+
 Git é uma ferramenta de versionamento de código. No GitHub você deposita seus repositórios. Para utilizar o Git é necessário conhecer os comandos principais listados abaixo:
 
 a)git init: inicializa um repositório Git em um diretório local;
