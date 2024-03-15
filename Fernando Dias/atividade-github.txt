@@ -1,0 +1,1 @@
+git push: Empurra para o respositório os commits.
