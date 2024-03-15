@@ -1,1 +1,1 @@
-fit push empurra para o repositorios os comits
+git push empurra para o repositorios os comits
